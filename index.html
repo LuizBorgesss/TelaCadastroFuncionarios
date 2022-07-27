@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Cadastro de funcionários</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="undraw_online_test_re_kyfx.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Cadastro de Funcionário</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Código de funcionário</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite o código de funcionário" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Digite seu email</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Salário</label>
+                        <input id="number" type="number" name="number" placeholder="Salário do funcionário" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="cargo">Cargo</label>
+                    <select name="cargo" id="cargo">
+                        <option value="lojista">Lojista</option>
+                        <option value="vendedor">Vendedor</option>
+                        <option value="estoquista">Estoquista</option>
+                        <option value="contador">Contador</option>
+                    </select>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
